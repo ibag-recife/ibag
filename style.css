@@ -1,0 +1,421 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 100;
+  src: url('fonts/Inter-Thin.woff2') format('woff2'),
+       url('fonts/Inter-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 100;
+  src: url('fonts/Inter-ThinItalic.woff2') format('woff2'),
+       url('fonts/Inter-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 200;
+  src: url('fonts/Inter-ExtraLight.woff2') format('woff2'),
+       url('fonts/Inter-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 200;
+  src: url('fonts/Inter-ExtraLightItalic.woff2') format('woff2'),
+       url('fonts/Inter-ExtraLightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 300;
+  src: url('fonts/Inter-Light.woff2') format('woff2'),
+       url('fonts/Inter-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 300;
+  src: url('fonts/Inter-LightItalic.woff2') format('woff2'),
+       url('fonts/Inter-LightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  src: url('fonts/Inter-Regular.woff2') format('woff2'),
+       url('fonts/Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 400;
+  src: url('fonts/Inter-Italic.woff2') format('woff2'),
+       url('fonts/Inter-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  src: url('fonts/Inter-Medium.woff2') format('woff2'),
+       url('fonts/Inter-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 500;
+  src: url('fonts/Inter-MediumItalic.woff2') format('woff2'),
+       url('fonts/Inter-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  src: url('fonts/Inter-SemiBold.woff2') format('woff2'),
+       url('fonts/Inter-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 600;
+  src: url('fonts/Inter-SemiBoldItalic.woff2') format('woff2'),
+       url('fonts/Inter-SemiBoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  src: url('fonts/Inter-Bold.woff2') format('woff2'),
+       url('fonts/Inter-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 700;
+  src: url('fonts/Inter-BoldItalic.woff2') format('woff2'),
+       url('fonts/Inter-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 800;
+  src: url('fonts/Inter-ExtraBold.woff2') format('woff2'),
+       url('fonts/Inter-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 800;
+  src: url('fonts/Inter-ExtraBoldItalic.woff2') format('woff2'),
+       url('fonts/Inter-ExtraBoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  src: url('fonts/Inter-Black.woff2') format('woff2'),
+       url('fonts/Inter-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 900;
+  src: url('fonts/Inter-BlackItalic.woff2') format('woff2'),
+       url('fonts/Inter-BlackItalic.woff') format('woff');
+}
+
+img {
+    max-inline-size: 100%;
+    block-size: auto;
+    align: center;
+}
+
+body {
+    margin: 0;
+    color: #330001;
+    background-color: #f6f5f4;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+hr {
+    color: #330001;
+    width: 80%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 8px 20px 8px 20px;
+
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #E5E3E2ff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1000px;
+    max-width: 90%;
+    margin: 5vw auto;
+    gap: 2rem;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: #E5E3E2ff;
+}
+
+.topbar {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+
+    max-width: 1000px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    letter-spacing: -0.045em;
+}
+
+h2, p {
+    line-height: 1.4;
+}
+
+nav a {
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a {
+    color: #330001;
+}
+
+.topbar-logo {
+    width: 40px;
+    vertical-align: middle;
+}
+
+nav {
+    display: flex;
+    gap: 2vw;
+
+    align-self: center;
+}
+
+.opening {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whoami {
+    flex: 1 1 40%;
+    align-self: center;
+    max-width: 40%;
+    text-align: center;
+}
+
+.whoami p {
+    font-size: 20px;
+}
+
+.imagem-igreja {
+    flex: 1 1 55%;
+    max-width: 55%;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+}
+
+.doctrine {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.protestant, .calvinist, .reformed {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.calvinist {
+    flex-direction: row-reverse;
+}
+
+.protestant img, .calvinist img, .reformed img {
+    max-width: 400px;
+    block-size: auto;
+    object-fit: contain;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+
+    max-width: calc(50% + 1px);
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+}
+
+.calvinist .card{
+    flex-direction: row-reverse;
+}
+
+.bar {
+    min-width: 2px;
+}
+
+.emptybar {
+    background-color: #d7cdcd;
+    width: 100%;
+    height: 100%;
+}
+
+.filledbar {
+    display: none;
+}
+
+.card:hover .filledbar {
+    display: block;
+    background-color: #3a0909;
+    width: 100%;
+    height: 100%;
+}
+
+.card:hover .emptybar {
+    display: none;
+}
+
+.left {
+    display: none;
+}
+
+.title {
+    min-width: 150px;
+}
+
+.calvinist {
+    text-align: end;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-times-social-media, .address {
+    flex: 1 50%;
+    max-width: 45%;
+}
+
+.service-times-social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media only screen and (max-width: 893px) {
+    main {
+        max-width: 80%;
+    }
+
+    .doctrine {
+	align-items: center;
+    }
+
+    .opening, .info, .protestant, .calvinist, .reformed {
+        flex-direction: column;
+    }
+
+    .protestant img, .calvinist img, .reformed img {
+	align-self: center;
+	max-width: 100%;
+    }
+
+    .calvinist .card {
+	flex-direction: row;
+	text-align: left;
+    }
+
+    .service-times-social-media, .address {
+        max-width: none;
+    }
+
+    .whoami {
+        max-width: none;
+    }
+    
+    .cards {
+	max-width: none;
+    }
+
+    .bar {
+	display: none;
+    }
+
+    .imagem-igreja {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    iframe {
+	width: 100%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    main {
+	max-width: 90%;
+    }
+
+    .imagem-igreja {
+        max-width: 90%;
+    }
+
+    .card {
+        gap: 10px;
+    }
+}
