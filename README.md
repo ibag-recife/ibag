@@ -1,2 +1,2 @@
 # ibag
-My local church new website, work in progress!
+My local church [new website](https://mathevsbatista.github.io/ibag/), work in progress!
