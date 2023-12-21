@@ -270,6 +270,10 @@ nav {
     justify-content: space-between;
 }
 
+.doctrine h2 {
+    text-align: center;
+}
+
 .protestant, .calvinist, .reformed {
     display: flex;
     justify-content: space-between;
