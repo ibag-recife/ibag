@@ -154,6 +154,7 @@ body {
     background-color: #f6f5f4;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     min-height: 100vh;
 }
 
@@ -163,6 +164,7 @@ hr {
 }
 
 header {
+    font-family: "Inter", sans-serif;
     display: flex;
     justify-content: center;
     background-color: white;
@@ -186,7 +188,7 @@ main {
 footer {
     background-color: white;
     text-align: center;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     border-top-style: solid;
     border-top-width: 1px;
     border-color: #E5E3E2ff;
@@ -211,10 +213,15 @@ h1 {
 h2 {
     font-size: 2rem;
     letter-spacing: -0.045em;
+    text-align: center;
 }
 
 h2, p {
     line-height: 1.4;
+}
+
+.doctrine p {
+    font-weight: 300;
 }
 
 nav a {
@@ -377,7 +384,7 @@ nav {
 }
 
 .lordsday h3 {
-    padding-left: 20px;
+    text-align: center;
 }
 
 .lordsday ul {
@@ -388,6 +395,22 @@ nav {
 
 .lordsday p {
     text-align: center;
+}
+
+.link-logo {
+    width: 3em;
+    height: 3em;
+    margin: 0.5em;
+}
+
+.events {
+    display: inline-block;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.events hr {
+    display: block;
 }
 
 @media only screen and (max-width: 893px) {
@@ -412,6 +435,7 @@ nav {
     }
 
     .protestant img, .calvinist img, .reformed img {
+	margin: 30px auto;
 	align-self: center;
 	max-width: 100%;
     }
@@ -422,6 +446,10 @@ nav {
 
     .service-times-social-media, .address {
         max-width: none;
+    }
+
+    .lordsday h3 {
+	padding-left: 0px;
     }
 
     .whoami {
@@ -449,6 +477,7 @@ nav {
 
 @media only screen and (max-width: 620px) {
     main {
+	margin: 20px auto;
 	max-width: 90%;
     }
 
