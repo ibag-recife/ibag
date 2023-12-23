@@ -355,6 +355,10 @@ nav {
     display: none;
 }
 
+.downloads .card {
+    gap: 30px;
+}
+
 .downloads .content {
     text-align: justify;
 }
