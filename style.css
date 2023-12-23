@@ -286,6 +286,11 @@ nav {
     justify-content: space-between;
 }
 
+.downloads {
+    align-self: center;
+    max-width: 80%;
+}
+
 .doctrine {
     color: #000000;
 }
@@ -456,6 +461,10 @@ nav {
 	align-items: center;
     }
 
+    .downloads {
+	max-width: 90%;
+    }
+
     .services-times, .social-media, .address {
 	text-align: center;
     }
@@ -529,6 +538,10 @@ nav {
 
     .events {
 	width: 100%;
+    }
+
+    .downloads {
+	max-width: 100%;
     }
 }
 
