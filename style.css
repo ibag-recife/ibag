@@ -271,7 +271,7 @@ nav {
     height: auto;
 }
 
-.doctrine {
+.doctrine, .downloads{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -309,12 +309,12 @@ nav {
     gap: 20px;
 }
 
-.calvinist .card{
+.calvinist .card {
     flex-direction: row-reverse;
 }
 
 .bar {
-    min-width: 2px;
+    min-height: 2px;
 }
 
 .emptybar {
@@ -336,6 +336,14 @@ nav {
 
 .card:hover .emptybar {
     display: none;
+}
+
+.downloads .content {
+    text-align: center;
+}
+
+.downloads {
+    align-items: center;
 }
 
 .left {
@@ -413,6 +421,20 @@ nav {
     display: block;
 }
 
+.downloads {
+    display: flex;
+    flex-direction: column;
+}
+
+.event ol {
+    list-style: none;
+    padding-right: 40px;
+}
+
+.player {
+    width: 100%;
+}
+
 @media only screen and (max-width: 893px) {
     main {
         max-width: 80%;
@@ -473,6 +495,10 @@ nav {
     iframe {
 	width: 100%;
     }
+
+    .events {
+	width: 90%;
+    }
 }
 
 @media only screen and (max-width: 620px) {
@@ -487,5 +513,9 @@ nav {
 
     .card {
         gap: 10px;
+    }
+
+    .events {
+	width: 100%;
     }
 }
