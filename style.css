@@ -541,7 +541,11 @@ nav {
     }
 
     .downloads {
-	max-width: 100%;
+	max-width: 90%;
+    }
+
+    .downloads .content {
+	text-align: left;
     }
 }
 
