@@ -585,6 +585,10 @@ nav {
 	filter: invert(70%);
     }
 
+    header img {
+	filter: invert(100%);
+    }
+
     .emptybar {
 	background-color: rgba(91, 91, 92, 0.10);
     }
