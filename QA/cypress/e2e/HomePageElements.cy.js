@@ -1,5 +1,3 @@
-before;
-
 describe("Site IBAG", () => {
   beforeEach(() => {
     cy.visit("https://mathevsbatista.github.io/ibag/index.html");
