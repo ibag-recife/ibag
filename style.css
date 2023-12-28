@@ -145,7 +145,6 @@
 img {
     max-inline-size: 100%;
     block-size: auto;
-    align: center;
 }
 
 body {
@@ -370,10 +369,6 @@ nav {
 
 .downloads .content {
     text-align: justify;
-}
-
-.downloads {
-    align-items: justify;
 }
 
 .left {
