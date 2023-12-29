@@ -145,7 +145,6 @@
 img {
     max-inline-size: 100%;
     block-size: auto;
-    align: center;
 }
 
 body {
@@ -217,6 +216,15 @@ h1, h2, h3, h4 {
 
 h1 {
     font-size: 2.5rem;
+    text-align: center;
+}
+
+.margin-fix-bottom {
+    margin-bottom: 0px;
+}
+
+.margin-fix-top {
+    margin-top: 0px;
 }
 
 h2 {
@@ -363,10 +371,6 @@ nav {
     text-align: justify;
 }
 
-.downloads {
-    align-items: justify;
-}
-
 .left {
     display: none;
 }
@@ -433,7 +437,9 @@ nav {
 }
 
 .events {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     width: 80%;
     margin: 0px auto;
 }
