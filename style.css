@@ -566,8 +566,9 @@ nav {
         background-color: #0D1117;
     }
 
-    header {
+    header, footer {
 	border-color: rgba(91, 91, 92, 0.10);
+        background-color: #12151b;
     }
 
     a {
@@ -605,13 +606,5 @@ nav {
 
     header a {
         color: #d1d5db;
-    }
-
-    header, footer {
-        background-color: #12151b;
-    }
-
-    footer {
-	border-color: rgba(91, 91, 92, 0.10);
     }
 }
